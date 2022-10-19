@@ -1,0 +1,14 @@
+/* Declarar las constantes de colores y fuentes */
+:root{
+    /* fuentes */
+    --titulos:'Lato',sans-serif;
+    --parrafos:'Roboto',sans-serif;
+    /* colores */
+    --encabezado:#580d0d;
+    --piepagina:#000;
+    --enlace:#fff;
+    --enlaceSobre:#e2752c;
+    --fondo:url('../images/background.jpg');
+
+
+}
