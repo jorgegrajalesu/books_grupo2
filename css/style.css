@@ -4,7 +4,7 @@
     --titulos:'Lato',sans-serif;
     --parrafos:'Roboto',sans-serif;
     /* colores */
-    --encabezado:#580d0d;
+    --encabezado:#5f1404;
     --piepagina:#000;
     --enlace:#fff;
     --enlaceSobre:#e2752c;
@@ -12,3 +12,44 @@
 
 
 }
+
+/* selector universal (*) */
+*{
+    box-sizing: border-box;
+}
+
+
+/* notación de una clase en css es (.) y en html es class */
+.home-wrapper{
+    background-image: url('/images/categorias/book2.jpg');
+    background-size: cover;
+
+}
+
+/* header es un selector de etiqueta en el css */
+header{
+    width: 100%;
+    background-color:var(--encabezado);
+    position: fixed;
+    padding: 10px 0;
+}
+
+/* combinación de selectores de etiqueta en css */
+header nav{
+    float: right;
+    margin-top: 8px;
+}
+
+header img{
+    width: 200px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--enlace);
+    margin-left: 6px;
+
+}
+
+
+
