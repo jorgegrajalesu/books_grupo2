@@ -51,5 +51,122 @@ header nav a{
 
 }
 
+header nav a:hover{
+    color: var(--enlaceSobre);
+}
+
+/* sección home, con un identificador en css (#) */
+#home{
+    text-align:center;
+    padding: 250px 0 250px;
+}
+
+#home p{
+    margin-top:50px;
+    color: rgb(1, 1, 1);
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+#home h1{
+    margin-bottom: 45px;
+    font-weight:700;
+    font-size: 3.2rem;
+    color: rgb(3, 3, 3);
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 80px 0;
+
+}
+
+section h2{
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 2.5rem;
+}
+
+/* sección novedades */
+#novedades .box{
+    display: inline-block;
+    width: 33%;
+    padding: 8px;
+
+}
+
+#novedades .box p{
+    text-align: justify;
+}
+
+#novedades .box img{
+    padding-left: 30%;
+    padding-bottom: 10px;
+}
+
+#novedades .box h3{
+    text-align: center;
+}
+
+/* sección categoría */
+#categoria .box{
+    width: 33%;
+    display: inline-block;
+    padding: 8px;
+}
+
+#categoria .box img{
+    width: 100%;
+}
+
+#categoria .box p{
+    text-align: justify;
+}
+
+#categoria .box h3{
+    text-align: center;
+}
+
+/* contacto */
+#contacto{
+    background-image: url('/images/map-image.png');
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#contacto h2{
+    color: #fff;
+}
+#contacto input,
+select,textarea{
+    width: 600px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 18px;    
+}
+
+iframe{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+
+/* footer o pie de pag */
+footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-color:var(--piepagina);
+}
+
 
 
